@@ -6,9 +6,15 @@ import HeaderBottom from "../HeaderBottom/HeaderBottom";
 const HeaderFull = () => {
   return (
     <>
-      <HeaderTop />
-      <HeaderMid />
-      <HeaderBottom />
+      <section
+        style={{
+          boxShadow: "0 0 10px -5px black",
+        }}
+      >
+        <HeaderTop />
+        <HeaderMid />
+        <HeaderBottom />
+      </section>
     </>
   );
 };

@@ -16,14 +16,14 @@ const HeaderTop = () => {
           <div className="flex-1 flex items-center justify-end text-[12px] ">
             <div className="px-[20px] flex items-center justify-center gap-x-[10px]">
               <span>Language</span>
-              <span className=" border-[2px] border-black flex items-center justify-center pl-[10px] rounded-md ">
+              <span className=" border-[1px] border-black flex items-center justify-center pl-[10px] rounded-md ">
                 English
                 <ArrowDropDownIcon sx={{ color: "black", fontSize: 20 }} />
               </span>
             </div>
             <div className="px-[20px] flex items-center justify-center gap-x-[10px] border-l-[1px] border-black ">
               <span>Currency</span>
-              <span className=" border-[2px] border-black flex items-center justify-center pl-[10px] rounded-md ">
+              <span className=" border-[1px] border-black flex items-center justify-center pl-[10px] rounded-md ">
                 USD
                 <ArrowDropDownIcon sx={{ color: "black", fontSize: 20 }} />
               </span>

@@ -2,17 +2,15 @@ import React from "react";
 import Image from "next/image";
 import logo from "../../../../public/Logos/Shoppy-black.png";
 import PersonIcon from "@mui/icons-material/Person";
-import LocalMallIcon from "@mui/icons-material/LocalMall";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 const HeaderMid = () => {
   return (
     <>
-      <section className="w-full border-b-[1px] border-black py-[10px]">
-        <header className="w-[80%] m-auto flex justify-between ">
-          <div className="flex-[1] flex items-center justify-start  ">
+      <section className="w-full py-[10px]">
+        <header className="w-[90%] m-auto flex justify-between ">
+          <div className="flex-[1] flex items-center justify-start ">
             <Image
               src={logo}
               alt="Image"
@@ -21,10 +19,14 @@ const HeaderMid = () => {
               className="rounded-[5px]"
             />
           </div>
-
-          <div className="flex-[3] flex items-center justify-center  border-[1px] border-black rounded-[50px] bg-white ">
+          <div
+            className="flex-[3] flex items-center justify-center rounded-[50px] bg-white "
+            style={{
+              boxShadow: "0 0 10px -5px",
+            }}
+          >
             <div className="flex w-full">
-              <div className="border-black flex items-center px-[10px] gap-x-[5px] flex-[3] ">
+              <div className="flex items-center px-[10px] gap-x-[5px] flex-[3] ">
                 <SearchIcon sx={{ color: "#b91c1c", fontSize: 25 }} />
                 <input
                   type="text"
@@ -32,38 +34,27 @@ const HeaderMid = () => {
                   className="font-[500] text-[20px] flex-[3] "
                 />
               </div>
-
-              <button className="p-[10px] font-[500] border-l-[1px] border-black flex-[1.1] ">
+              {/* <button className="p-[10px] font-[500] border-l-[1px] border-[#f97316] flex-[1.1] ">
                 All Categories
                 <ArrowDropDownIcon />
-              </button>
-
-              <button className="bg-orange-500 py-[6px] px-[15px] font-[500] text-[17px] text-white flex-[0.5] rounded-tr-[50px] rounded-br-[50px]">
+                </button> */}
+              <button className="py-[10px] px-[15px] font-[500] text-[17px] text-white flex-[0.5] rounded-tr-[50px] rounded-br-[50px] bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 ...">
                 Search
               </button>
             </div>
           </div>
 
-          <div className=" flex-[1.5] flex items-center justify-between ">
-            <div className="flex-[4] flex items-center justify-center ">
-              <span className=" border-r-[1px] border-black flex-1 flex items-center justify-center">
-                <PersonIcon sx={{ color: "#f97316", fontSize: 25 }} />
+          <div className=" flex-[1.5] flex items-center justify-end  ">
+            <div className="  flex items-center justify-end gap-x-[15px] text-white ">
+              <button className="py-[7px] px-[15px] flex gap-x-[5px] bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 ... rounded-[50px]   ">
+                <PersonIcon sx={{ color: "white", fontSize: 25 }} />
                 Login
-              </span>
-              <span className="flex-1 flex items-center justify-center">
-                <ContactPageIcon sx={{ color: "#f97316", fontSize: 25 }} />
+              </button>
+              <button className="py-[7px] px-[15px] flex gap-x-[5px] bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 ... rounded-[50px]   ">
+                <ContactPageIcon sx={{ color: "white", fontSize: 25 }} />
                 Register
-              </span>
+              </button>
             </div>
-            <span className="flex-1 flex items-center justify-end">
-              <LocalMallIcon
-                sx={{ color: "#f97316", fontSize: 40 }}
-                className=" rounded-[50px] p-[7px] bg-white "
-                style={{
-                  boxShadow: "0 0 10px -5px black",
-                }}
-              />
-            </span>
           </div>
         </header>
       </section>
