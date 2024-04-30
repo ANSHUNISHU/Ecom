@@ -6,7 +6,7 @@ const HeaderTop = () => {
   return (
     <>
       <section className="w-full border-b-[1px] border-black">
-        <header className="w-[80%] m-auto py-[5px] flex items-center justify-between ">
+        <header className="w-[80%] m-auto py-[10px] flex items-center justify-between ">
           <div className="flex-1 flex items-center justify-start pl-[10px] ">
             <div className="flex items-center justify-center pl-[10px] gap-x-[5px] ">
               <CallIcon sx={{ color: "black", fontSize: 20 }} />
