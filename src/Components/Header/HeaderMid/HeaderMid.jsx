@@ -57,10 +57,10 @@ const HeaderMid = () => {
             </div>
             <span className="flex-1 flex items-center justify-end">
               <LocalMallIcon
-                sx={{ color: "#f97316", fontSize: 50 }}
-                className=" rounded-[50px] p-[10px]  "
+                sx={{ color: "#f97316", fontSize: 40 }}
+                className=" rounded-[50px] p-[7px]  "
                 style={{
-                  boxShadow: "0 0 10px -3px #c2410c  ",
+                  boxShadow: "0 0 10px -3px #c2410c",
                 }}
               />
             </span>
