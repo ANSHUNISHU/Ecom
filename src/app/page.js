@@ -1,9 +1,9 @@
-import TopNav from "@/Components/Header/TopNav/TopNav";
+import HeaderFull from "@/Components/Header/HeaderFull/HeaderFull";
 
 export default function Home() {
   return (
     <>
-      <section></section>
+      <HeaderFull />
     </>
   );
 }
