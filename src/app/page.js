@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <HeaderFull />
       <HeroLayout />
-      <span></span>
     </>
   );
 }
