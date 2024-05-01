@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderTop from "../HeaderTop/HeaderTop";
+// import HeaderTop from "../HeaderTop/HeaderTop";
 import HeaderMid from "../HeaderMid/HeaderMid";
 import HeaderBottom from "../HeaderBottom/HeaderBottom";
 
@@ -11,7 +11,7 @@ const HeaderFull = () => {
           boxShadow: "0 0 10px -5px black",
         }}
       >
-        <HeaderTop />
+        {/* <HeaderTop /> */}
         <HeaderMid />
         <HeaderBottom />
       </section>

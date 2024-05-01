@@ -40,3 +40,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+.heroSidebarLi {
+  border-bottom: 1px solid #a1a1aa;
+  border-left: 1px solid #a1a1aa;
+  border-right: 1px solid #a1a1aa;
+  /* flex */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

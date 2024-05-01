@@ -8,7 +8,7 @@ import ContactPageIcon from "@mui/icons-material/ContactPage";
 const HeaderMid = () => {
   return (
     <>
-      <section className="w-full py-[10px]">
+      <section className="w-full py-[15px]">
         <header className="w-[90%] m-auto flex justify-between ">
           <div className="flex-[1] flex items-center justify-start ">
             <Image
