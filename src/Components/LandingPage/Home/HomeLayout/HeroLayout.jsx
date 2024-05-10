@@ -6,10 +6,10 @@ import { FiMenu } from "react-icons/fi";
 const HeroLayout = () => {
   return (
     <>
-      <section className="w-full py-[15px] ">
+      <section className="w-full py-[15px]">
         <main className=" w-[97%] m-auto xl:w-[80%]  ">
           <div className="">
-            <div className="bg-gradient-to-r from-red-600 via-orange-600 to-orange-400 px-[30px] py-[15px] text-white rounded-tl-[15px] rounded-tr-[15px] ">
+            <div className="bg-gradient-to-r from-red-600 via-orange-600 to-orange-400 px-[20px] xl:px-[30px] py-[15px] text-white rounded-tl-[15px] rounded-tr-[15px] ">
               <div className="hidden xl:flex xl:flex-col ">
                 <span className=" text-[20px] font-[700] ">
                   All Departments
@@ -19,7 +19,7 @@ const HeroLayout = () => {
                 </span>
               </div>
               <div className=" xl:hidden">
-                <FiMenu />
+                <FiMenu className="text-[30px]" />
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ const HeroLayout = () => {
             <div className=" xl:flex-[2.5] ">
               <HeroSidebar />
             </div>
-            <div className="xl:flex-[7.5] pt-[20px] xl:pl-[20px] ">
+            <div className="xl:flex-[7.5] pt-[10px] xl:pl-[20px] ">
               <HeroSlider />
             </div>
           </div>
