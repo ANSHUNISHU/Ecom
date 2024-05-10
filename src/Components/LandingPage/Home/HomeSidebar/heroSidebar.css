@@ -1,0 +1,13 @@
+#heroSidebarLi {
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #9ca3af;
+    padding: 22px 18px;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

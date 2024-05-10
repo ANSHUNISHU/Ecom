@@ -1,43 +1,40 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../../../public/Logos/Shoppy-black.png";
 import PersonIcon from "@mui/icons-material/Person";
 import SearchIcon from "@mui/icons-material/Search";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 
-const HeaderMid = () => {
+const HeaderOne = () => {
   return (
     <>
-      <section className="w-full py-[15px]">
-        <header className="w-[90%] m-auto flex justify-between ">
-          <div className="flex-[1] flex items-center justify-start ">
-            <Image
-              src={logo}
-              alt="Image"
-              height={100}
-              width={100}
-              className="rounded-[5px]"
-            />
-          </div>
+      <section className="w-full py-[10px]">
+        <header className="w-[90%] m-auto flex justify-between">
+          {/* <div className="flex-[1] flex items-center justify-start ">
+          <Image
+            src={logo}
+            alt="Image"
+            height={100}
+            width={100}
+            className="rounded-[5px]"
+          />
+        </div> */}
           <div
             className="flex-[3] flex items-center justify-center rounded-[50px] bg-white "
             style={{
               boxShadow: "0 0 10px -5px",
             }}
           >
-            <div className="flex w-full">
-              <div className="flex items-center px-[10px] gap-x-[5px] flex-[3] ">
-                <SearchIcon sx={{ color: "#b91c1c", fontSize: 25 }} />
+            <div className="flex w-full ">
+              <div className="flex items-center flex-[3] ">
+                <div className="px-[15px]">
+                  <SearchIcon sx={{ color: "#b91c1c", fontSize: 30 }} />
+                </div>
                 <input
                   type="text"
                   placeholder="Search Here"
-                  className="font-[500] text-[20px] flex-[3] "
+                  className="font-[500] text-[20px] flex-[3] py-[10px]  "
                 />
               </div>
-              {/* <button className="p-[10px] font-[500] border-l-[1px] border-[#f97316] flex-[1.1] ">
-                All Categories
-                <ArrowDropDownIcon />
-                </button> */}
               <button className="py-[10px] px-[15px] font-[500] text-[17px] text-white flex-[0.5] rounded-tr-[50px] rounded-br-[50px] bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 ...">
                 Search
               </button>
@@ -62,4 +59,4 @@ const HeaderMid = () => {
   );
 };
 
-export default HeaderMid;
+export default HeaderOne;

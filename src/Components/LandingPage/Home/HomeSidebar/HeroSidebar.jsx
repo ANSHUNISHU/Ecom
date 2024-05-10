@@ -1,82 +1,86 @@
 import React from "react";
 import { GiClothes, GiHealthNormal } from "react-icons/gi";
+import { HiOutlineHomeModern } from "react-icons/hi2";
 import { RiBearSmileLine } from "react-icons/ri";
 import { PiDressBold } from "react-icons/pi";
 import { FaHome, FaAngleRight } from "react-icons/fa";
+import { LuDog } from "react-icons/lu";
 import {
   MdOutlinePets,
   MdBluetoothAudio,
   MdSportsVolleyball,
   MdOutlineSell,
+  MdOutlineSportsBasketball,
 } from "react-icons/md";
+import { FaHandHoldingMedical } from "react-icons/fa6";
 
 const HeroSidebar = () => {
   return (
     <>
-      <div className="">
-        <ul className=" font-[700]  ">
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+      <div className="hidden xl:block ">
+        <ul className=" font-[700] text-[18px] ">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
               <RiBearSmileLine className=" text-[25px]" />
               Beauty
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
               <MdBluetoothAudio className=" text-[25px]" />
               Electronic
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px] ">
               <PiDressBold className=" text-[25px] " />
               Women & Girls Fashion
             </span>
             <FaAngleRight className="text-[20px]  " />
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
               <GiClothes className=" text-[25px]" />
               Men & Boys Fashion
             </span>
             <FaAngleRight className="text-[20px] " />
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
-              <GiHealthNormal className=" text-[25px]" />
+              <FaHandHoldingMedical className=" text-[25px]" />
               Health & Household
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
-              <FaHome className=" text-[25px]" />
+              <HiOutlineHomeModern className=" text-[25px]" />
               Home & Kitchen
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
-              <MdOutlinePets className=" text-[25px]" />
+              <LuDog className=" text-[25px]" />
               Pet Supplies
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
-              <MdSportsVolleyball className=" text-[25px]" />
+              <MdOutlineSportsBasketball className=" text-[25px]" />
               Sports
             </span>
             <FaAngleRight className="text-[20px] " />
           </li>
-          <li className="py-[15px] px-[20px] heroSidebarLi">
+          <li className=" " id="heroSidebarLi">
             <span className="flex gap-x-[15px]">
               <MdOutlineSell className=" text-[25px]" />
               Best Seller
             </span>
-            <FaAngleRight className="text-[20px] " />
+            {/* <FaAngleRight className="text-[20px] " /> */}
           </li>
         </ul>
       </div>
