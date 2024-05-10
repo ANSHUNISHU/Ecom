@@ -1,11 +1,11 @@
-import DesktopHeader from "@/Components/Header/DesktopHeader/DesktopHeader";
+import HeaderAndSidebar from "@/Components/Header-Sidebar/HeaderAndSidebar";
 import HeroLayout from "@/Components/LandingPage/Home/HomeLayout/HeroLayout";
 
 
 export default function Home() {
   return (
     <>
-      <DesktopHeader />
+      <HeaderAndSidebar />
       <HeroLayout />
     </>
   );
